@@ -124,23 +124,8 @@ hackathonCards.forEach(card => {
 const contactForm = document.querySelector('.contact-form');
 if(contactForm) {
     contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        const name = this.elements['name'].value.trim();
-        const email = this.elements['email'].value.trim();
-        const message = this.elements['message'].value.trim();
         const msgDiv = this.querySelector('.form-message');
-        if(!name || !email || !message) {
-            msgDiv.textContent = 'Please fill out all fields.';
-            msgDiv.style.color = '#e74c3c';
-            return;
-        }
-        if(!/^\S+@\S+\.\S+$/.test(email)) {
-            msgDiv.textContent = 'Please enter a valid email address.';
-            msgDiv.style.color = '#e74c3c';
-            return;
-        }
-        msgDiv.textContent = 'Message sent! Thank you.';
+        msgDiv.textContent = 'Sending...';
         msgDiv.style.color = 'var(--teal)';
-        this.reset();
     });
 }
