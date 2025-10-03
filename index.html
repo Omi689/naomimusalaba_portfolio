@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naomi Musalaba - Software Engineer Portfolio">
+    <title>Naomi Musalaba | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-logo">Naomi Musalaba</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hackathons">Hackathons</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Naomi Musalaba</h1>
+            <h2>Software Engineer</h2>
+            <div class="typewriter">
+                <span id="typewriter-text"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+            <a href="#projects" class="cta-btn">View Projects</a>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+        <div class="about-container">
+            <img src="assets/naomi-photo.jpg" alt="Naomi Musalaba" class="about-photo" loading="lazy">
+            <div class="about-bio">
+                <h3>About Me</h3>
+                <p>Hi! I’m Naomi Musalaba, a passionate Software Engineer with a love for problem-solving, design, and innovation. I thrive at the intersection of technology and creativity, always eager to learn and take on new challenges.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <h3>Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-header-content">
+                        <h4>Judiciary Management System</h4>
+                        <div class="project-meta">
+                            <span class="project-date">2024</span>
+                            <span class="project-type">Web Application</span>
+                        </div>
+                    </div>
+                    <button class="project-toggle" aria-label="Toggle project details">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="project-content">
+                    <p>A comprehensive case management solution for court systems, streamlining case tracking and document management.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-header-content">
+                        <h4>Cybersecurity Threat Detection</h4>
+                        <div class="project-meta">
+                            <span class="project-date">2024</span>
+                            <span class="project-type">AI/ML Project</span>
+                        </div>
+                    </div>
+                    <button class="project-toggle" aria-label="Toggle project details">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="project-content">
+                    <p>Advanced threat detection system using machine learning to identify and mitigate security breaches in real-time.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Cybersecurity</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-header-content">
+                        <h4>Agri-tech Solution</h4>
+                        <div class="project-meta">
+                            <span class="project-date">2023</span>
+                            <span class="project-type">IoT Project</span>
+                        </div>
+                    </div>
+                    <button class="project-toggle" aria-label="Toggle project details">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="project-content">
+                    <p>IoT-based agricultural monitoring system that helps farmers optimize crop yields through real-time data analysis.</p>
+                    <div class="project-tags">
+                        <span>IoT</span>
+                        <span>Python</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-header-content">
+                        <h4>Braille Mobile App</h4>
+                        <div class="project-meta">
+                            <span class="project-date">2023</span>
+                            <span class="project-type">Mobile App</span>
+                        </div>
+                    </div>
+                    <button class="project-toggle" aria-label="Toggle project details">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="project-content">
+                    <p>Supports the visually impaired through text-to-Braille conversion and navigation assistance.</p>
+                    <div class="project-tags">
+                        <span>Android</span>
+                        <span>Kotlin</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-header-content">
+                        <h4>Thermal Depolymerization</h4>
+                        <div class="project-meta">
+                            <span class="project-date">2023</span>
+                            <span class="project-type">Research Project</span>
+                        </div>
+                    </div>
+                    <button class="project-toggle" aria-label="Toggle project details">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="project-content">
+                    <p>Explores efficient waste-to-energy conversion through advanced thermal depolymerization techniques.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <h3>Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming</h4>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-icon">🐍</div>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">☕</div>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">JS</div>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Web</h4>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-icon">⚛️</div>
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🖥️</div>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">💾</div>
+                        <span>Databases</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <h4>Other</h4>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-icon">📱</div>
+                        <span>Android</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🔒</div>
+                        <span>Security</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">🚚</div>
+                        <span>Class B Auto License</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="section hobbies-section">
+        <h3>Hobbies & Interests</h3>
+        <div class="hobbies-grid">
+            <div class="hobby-item">
+                <div class="hobby-icon">📷</div>
+                <h4>Photography</h4>
+                <p>Capturing moments and exploring creative perspectives</p>
+            </div>
+            <div class="hobby-item">
+                <div class="hobby-icon">🎨</div>
+                <h4>Design</h4>
+                <p>Creating beautiful and functional user interfaces</p>
+            </div>
+            <div class="hobby-item">
+                <div class="hobby-icon">🔐</div>
+                <h4>Cybersecurity</h4>
+                <p>Participating in CTF challenges and security research</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hackathon Highlights Section -->
+    <section id="hackathons" class="section hackathons-section">
+        <h3>Hackathon Highlights</h3>
+        <div class="hackathons-grid">
+            <!-- Flip cards for hackathons -->
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h3>Contact</h3>
+        <form class="contact-form" autocomplete="off" novalidate>
+            <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+            <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+            <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+            <div class="form-message" aria-live="polite"></div>
+        </form>
+        <div class="contact-icons">
+            <a href="mailto:musalabanaomi5@gmail.com" aria-label="Email"><img src="assets/email.svg" alt="Email"></a>
+            <a href="https://www.linkedin.com/in/naomi-musalaba-7b6217293" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/Omi689" target="_blank" rel="noopener" aria-label="GitHub"><img src="assets/github.svg" alt="GitHub"></a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Naomi Musalaba. All rights reserved.</p>
+    </footer>
+</body>
+</html>

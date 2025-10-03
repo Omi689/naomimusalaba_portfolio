@@ -1,0 +1,2 @@
+# For local preview only
+# No dependencies required for static site
